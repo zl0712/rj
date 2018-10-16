@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.ruijing.zl.views.roundimageview.RoundedImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text=""
+        android:textColor="@color/text_black"
+        android:textSize="13sp" />
+
+    <RelativeLayout
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_centerVertical="true"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="#ff4456"
+            android:textSize="11sp" />
+
+        <TextView
+            android:paddingRight="4dp"
+            android:paddingLeft="4dp"
+            android:paddingBottom="2dp"
+            android:visibility="gone"
+            android:paddingTop="2dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/tv_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="立即购买"
+            android:background="@drawable/buy_backgroud"
+            android:textColor="#ff4456"
+            android:textSize="11sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

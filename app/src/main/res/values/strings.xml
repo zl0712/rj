@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RuiJing</string>
+
+    <string name="zhuye">主页</string>
+    <string name="fenlei">分类</string>
+    <string name="faxian">发现</string>
+    <string name="wode">我的</string>
+</resources>

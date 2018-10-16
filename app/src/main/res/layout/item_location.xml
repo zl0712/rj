@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruijing.zl.views.swipe.SwipeItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_menu"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="#fb3d55"
+        android:gravity="center"
+        android:text="删除"
+        android:textSize="13sp"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_choose"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/iv_check" />
+
+        <ImageView
+            android:id="@+id/iv_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@mipmap/iv_up" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/iv_up"
+            android:layout_toRightOf="@+id/iv_choose"
+            android:text="过古国 12312312312"
+            android:textColor="@color/text_black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/iv_up"
+            android:layout_toRightOf="@+id/iv_choose"
+            android:text="浙江省杭州市余杭区八方城浙江省杭州市余杭区八方城"
+            android:textColor="@color/text_black"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/ling_e"
+            android:layout_width="match_parent"
+            android:layout_height="1px"/>
+
+    </RelativeLayout>
+
+</com.ruijing.zl.views.swipe.SwipeItemLayout>

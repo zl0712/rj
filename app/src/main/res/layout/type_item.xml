@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingBottom="10dp"
+        android:paddingLeft="22dp"
+        android:paddingTop="10dp"
+        android:text="全部分类"
+        android:textColor="@color/text_black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.ruijing.zl.views.roundimageview.RoundedImageView
+        android:layout_margin="10dp"
+        android:background="@drawable/circle_bottom"
+        android:elevation="5dp"
+        android:scaleType="fitXY"
+        android:id="@+id/iv_icon"
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
+
+</LinearLayout>
